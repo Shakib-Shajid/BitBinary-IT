@@ -31,6 +31,7 @@ const Navbar = () => {
                     alt="Picture of the author"
                     />
                     </Link>
+                    
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
