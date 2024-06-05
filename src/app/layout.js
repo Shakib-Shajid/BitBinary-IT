@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/Footer";
+import NewsLetter from "@/components/shared/NewsLetter";
 
 
 export const metadata = {
@@ -16,8 +17,9 @@ export default function RootLayout({ children }) {
         <div className="max-w-7xl mx-auto">
           <Navbar />
           {children}
-          <Footer />
+          <NewsLetter />
         </div>
+          <Footer />
       </body>
     </html>
   );
