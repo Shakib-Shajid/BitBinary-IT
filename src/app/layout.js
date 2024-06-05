@@ -1,7 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/shared/navbar";
+import Footer from "@/components/shared/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Whale Lagoon SMMA",
@@ -11,7 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="bg-[#B8DCFF]">
+        <div className="max-w-7xl mx-auto">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
