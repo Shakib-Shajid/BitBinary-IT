@@ -10,6 +10,8 @@ const page = () => {
       <Service/>
       <Team/>
       <Review/>
+
+      
     </div>
 
   );

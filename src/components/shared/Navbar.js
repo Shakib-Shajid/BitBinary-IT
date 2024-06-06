@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/logo.png"
@@ -39,7 +40,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link href="/contact" className="btn bg-[#2C2CF2] text-white py-4 px-10 rounded-full border-0">Get Started</Link>
+                <Link href="/contact" className="btn bg-[#2C2CF2] text-white  md:py-4 md:px-10 rounded-full border-0">Get Started</Link>
             </div>
         </div>
     );
