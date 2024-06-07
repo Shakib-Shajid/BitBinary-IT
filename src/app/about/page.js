@@ -9,7 +9,7 @@ import CEO from '@/assets/ceo.png'
 const page = () => {
     return (
         <div>
-            <div className="hero mt-3 md:mt-10">
+            <div className="hero mt-3 lg:mt-10">
                 <div className="hero-content flex-col  lg:flex-row-reverse">
                     <div>
                         <Image
@@ -40,7 +40,7 @@ const page = () => {
                                     <Image
                                         src={MD}
                                         alt="Picture of the author"
-                                        className="w-1/5 md:w-2/5"
+                                        className="w-1/5 md:w-1/3"
 
                                     />
 
@@ -61,7 +61,7 @@ const page = () => {
                                     <Image
                                         src={BM}
                                         alt="Picture of the author"
-                                        className="w-1/5 md:w-2/5"
+                                        className="w-1/5 md:w-1/3"
 
                                     />
 
@@ -79,7 +79,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='text-center mb-3 '>
+            <div className='text-center mb-5 md:mb-10 lg:mb-20 '>
                 <h3 className='text-red-600'>Our Team</h3>
                 <p className=" text-2xl md:text-5xl font-bold pt-3 pb-10">Meet The Minds Shaping <br />
                     An Industry</p>

@@ -2,7 +2,7 @@
 const NewsLetter = () => {
     return (
 
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
 
             <div className="h-96 bg-black rounded-xl text-white text-center pt-8 md:pt-16 md:z-10 md:relative md:-mb-40 w-4/5">
                 <p className="text-xl md:text-2xl text-[#E6D5D5]">Join Our Community</p>
