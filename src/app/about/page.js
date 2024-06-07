@@ -2,9 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 import team1 from '@/assets/team-1.png';
 import team2 from '@/assets/team-2.png';
-import MD from '@/assets/md.png'
-import BM from '@/assets/bm.png'
-import CEO from '@/assets/ceo.png'
+import md from '@/assets/md.png'
+import bm from '@/assets/bm.png'
+import ceo from '@/assets/ceo.png'
+import hr from '@/assets/hr.png'
+import mr from '@/assets/mr.png'
+import dev from '@/assets/dev.png'
 
 const page = () => {
     return (
@@ -38,7 +41,7 @@ const page = () => {
                             <div className="card w-64">
                                 <figure className="">
                                     <Image
-                                        src={MD}
+                                        src={md}
                                         alt="Picture of the author"
                                         className="w-1/5 md:w-1/3"
 
@@ -59,7 +62,7 @@ const page = () => {
                             <div className="card w-64 ">
                                 <figure className="">
                                     <Image
-                                        src={BM}
+                                        src={bm}
                                         alt="Picture of the author"
                                         className="w-1/5 md:w-1/3"
 
@@ -84,14 +87,14 @@ const page = () => {
                 <p className=" text-2xl md:text-5xl font-bold pt-3 pb-10">Meet The Minds Shaping <br />
                     An Industry</p>
                 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 mx-3'>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
-                            <Image src={CEO} alt=""/>
+                            <Image src={ceo} alt=""/>
+                            <Image src={hr} alt=""/>
+                            <Image src={dev} alt=""/>
+                            <Image src={mr} alt=""/>
+                            <Image src={hr} alt=""/>
+                            <Image src={dev} alt=""/>
+                            <Image src={mr} alt=""/>
+                            <Image src={ceo} alt=""/>
                 </div>
             </div>
 

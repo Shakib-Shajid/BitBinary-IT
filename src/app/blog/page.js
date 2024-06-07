@@ -14,7 +14,7 @@ const page = () => {
                 <h3 className="text-3xl lg:text-5xl font-bold py-3">Our Latest Blogs</h3>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-10'>
 
                 <div className="card w-72 mx-auto md:w-80 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
