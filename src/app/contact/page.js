@@ -51,10 +51,10 @@ const page = () => {
 
                     <div className="my-5 md:my-10">
                         <div className="flex gap-2 md:gap-4 lg:gap-9 my-2 md:my-4 lg:my-8 flex-col lg:flex-row">
-                            <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs py-5 px-10 rounded-full text-lg h-16" name="" id="" />
-                            <input type="email" placeholder="Your Email" className="input input-bordered w-full max-w-xs py-5 px-10 rounded-full text-lg h-16" name="" id="" />
+                            <input type="text" placeholder="Your Name" className="input input-bordered w-full max-w-xs py-3 px-6 rounded-full text-lg h-16" name="" id="" />
+                            <input type="email" placeholder="Your Email" className="input input-bordered w-full max-w-xs py-3 px-6 rounded-full text-lg h-16" name="" id="" />
                         </div>
-                        <textarea placeholder="Questions" className="textarea md:h-56 lg:h-80 w-full rounded-xl py-7 px-10 text-lg" ></textarea>
+                        <textarea placeholder="Questions" className="textarea md:h-56 lg:h-80 w-full rounded-xl py-3 px-6 text-lg" ></textarea>
                         <Link href="/contact" className="btn bg-[#2C2CF2] text-white  md:py-4 md:px-10 rounded-full border-0">Get Started</Link>
                     </div>
                 </div>
