@@ -25,7 +25,6 @@ const NewsLetter = () => {
 
                     {/* for large device */}
                     <div className="hidden lg:flex justify-center items-center">
-                    <p>large</p>
                         <input className="input bg-black w-2/4 py-7 px-10 border-white rounded-full text-[#E6D5D5]" placeholder="Enter Your Email Address" />
                         <button className="btn -ml-36 py-2 px-9 rounded-full text-white border-0 m-4 bg-[#2C2CF2]">Subscribe</button>
                     </div>

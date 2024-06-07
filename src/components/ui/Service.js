@@ -9,7 +9,7 @@ const Service = () => {
     return (
         <div>
             {/* Service Section */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:gap-40'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto md:gap-10 lg:gap-40 my-2'>
                 <div>
                     {/* card 1 */}
                     <div className="card w-64">
@@ -17,9 +17,10 @@ const Service = () => {
                             <Image
                                 src={TA}
                                 alt="Picture of the author"
-                                height={100}
-                                width={100}
+                                className="w-1/5 md:w-2/5"
+
                             />
+
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Team Accounts</h2>
@@ -37,9 +38,10 @@ const Service = () => {
                             <Image
                                 src={CS}
                                 alt="Picture of the author"
-                                height={100}
-                                width={100}
+                                className="w-1/5 md:w-2/5"
+
                             />
+
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Customer Support</h2>
@@ -61,9 +63,10 @@ const Service = () => {
                             <Image
                                 src={DA}
                                 alt="Picture of the author"
-                                height={100}
-                                width={100}
+                                className="w-1/5 md:w-2/5"
+
                             />
+
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Digital Agency</h2>
@@ -80,9 +83,10 @@ const Service = () => {
                             <Image
                                 src={AR}
                                 alt="Picture of the author"
-                                height={100}
-                                width={100}
+                                className="w-1/5 md:w-2/5"
+
                             />
+
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">API Reference</h2>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Banner = () => {
     return (
-        <div className = "hero min-h-screen">
+        <div className = "hero">
             <div className="hero-content flex-col md:gap-5 lg:gap-20 lg:flex-row-reverse">
                 <Image
                     src={firstImage} 
