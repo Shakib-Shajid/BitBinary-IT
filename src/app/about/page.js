@@ -5,7 +5,6 @@ import team1 from '@/assets/team-1.png';
 import team2 from '@/assets/team-2.png';
 import md from '@/assets/md.png'
 import bm from '@/assets/bm.png'
-
 import Imgs from '@/components/ui/Imgs';
 
 const page = () => {
