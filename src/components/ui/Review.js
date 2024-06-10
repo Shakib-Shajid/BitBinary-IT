@@ -14,7 +14,7 @@ import Client from './Client';
 
 const Review = () => {
     return (
-        <div>
+        <div className='my-10'>
             <Swiper
         slidesPerView={1}
         spaceBetween={30}
