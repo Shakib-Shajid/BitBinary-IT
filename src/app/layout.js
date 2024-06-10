@@ -5,7 +5,7 @@ import NewsLetter from "@/components/shared/NewsLetter";
 
 
 export const metadata = {
-  title: "Whale Lagoon SMMA",
+  title: "Whale Lagoon",
   description: "It is a Social Media Marketing Agency",
 };
 

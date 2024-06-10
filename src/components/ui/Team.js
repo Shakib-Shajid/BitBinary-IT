@@ -17,6 +17,7 @@ const Team = () => {
             <p className="py-2 md:py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
             <Link href="/about">
               <button className="btn bg-[#2C2CF2] text-white rounded-full md:py-4 md:px-10">Meet Our Team</button>
+
             </Link>
           </div>
           <Image

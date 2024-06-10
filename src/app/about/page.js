@@ -1,15 +1,15 @@
+"use client";
 import Image from 'next/image';
 import React from 'react';
 import team1 from '@/assets/team-1.png';
 import team2 from '@/assets/team-2.png';
 import md from '@/assets/md.png'
 import bm from '@/assets/bm.png'
-import ceo from '@/assets/ceo.png'
-import hr from '@/assets/hr.png'
-import mr from '@/assets/mr.png'
-import dev from '@/assets/dev.png'
+
+import Imgs from '@/components/ui/Imgs';
 
 const page = () => {
+
     return (
         <div>
             <div className="hero mt-3 lg:mt-10">
@@ -86,16 +86,11 @@ const page = () => {
                 <h3 className='text-red-600'>Our Team</h3>
                 <p className=" text-2xl md:text-5xl font-bold pt-3 pb-10">Meet The Minds Shaping <br />
                     An Industry</p>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 mx-3'>
-                            <Image src={ceo} alt=""/>
-                            <Image src={hr} alt=""/>
-                            <Image src={dev} alt=""/>
-                            <Image src={mr} alt=""/>
-                            <Image src={hr} alt=""/>
-                            <Image src={dev} alt=""/>
-                            <Image src={mr} alt=""/>
-                            <Image src={ceo} alt=""/>
+                <div>
+                    <Imgs />
+                    <Imgs />
                 </div>
+
             </div>
 
 

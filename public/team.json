@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "CEO",
+    "img": "https://i.ibb.co/4sWHVK2/ceo.png"
+  },
+  {
+    "id": 2,
+    "title": "Web Developer",
+    "img": "https://i.ibb.co/TqnfNFB/mr.png"
+  },
+  {
+    "id": 3,
+    "title": "HR Manager",
+    "img": "https://i.ibb.co/S31RqK0/hr.png"
+  },
+  {
+    "id": 4,
+    "title": "Web Developer",
+    "img": "https://i.ibb.co/3CCFX2r/dev.png"
+  }
+]

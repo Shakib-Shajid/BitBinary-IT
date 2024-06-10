@@ -12,7 +12,6 @@ const page = () => {
       <Team/>
       <Portfolio/>
       <Review/>
-
       
     </div>
 

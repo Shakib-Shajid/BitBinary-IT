@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
-import Client from './Client';
 import Image from 'next/image';
 import bag from '@/assets/bag.png'
 import fac from '@/assets/fac.png'
