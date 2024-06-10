@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "6 Examples of Brilliant Email Marketing",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/nmWdbQG/blog-1.png"
+  },
+  {
+    "id": 2,
+    "title": "How to measure the success of Social Media Marketing",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/mt0M3DG/blog-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Web Development: A Powerful Tool For Business",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/Fh7Z0M6/blog-3.png"
+  },
+  {
+    "id": 4,
+    "title": "How to Handle Competition in Business",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/4YFB11k/blog-4.png"
+  },
+  {
+    "id": 5,
+    "title": "How to measure the success of Social Media Marketing",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/mt0M3DG/blog-2.png"
+  },
+  {
+    "id": 6,
+    "title": "Web Development: A Powerful Tool For Business",
+    "desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "img": "https://i.ibb.co/Fh7Z0M6/blog-3.png"
+  }
+]

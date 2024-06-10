@@ -4,6 +4,7 @@ import blog1 from '@/assets/blog-1.png'
 import blog2 from '@/assets/blog-2.png'
 import blog3 from '@/assets/blog-3.png'
 import blog4 from '@/assets/blog-4.png'
+import Blogs from '@/components/ui/Blogs';
 
 
 const page = () => {
@@ -14,7 +15,7 @@ const page = () => {
                 <h3 className="text-3xl lg:text-5xl font-bold py-3">Our Latest Blogs</h3>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-10'>
+            {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-10'>
 
                 <div className="card w-72 mx-auto md:w-80 lg:w-96 bg-base-100 shadow-xl">
                     <figure>
@@ -93,6 +94,9 @@ const page = () => {
                     </div>
                 </div>
 
+            </div>  */}
+            <div>
+                <Blogs/>
             </div>
         </div>
     );
