@@ -12,7 +12,7 @@ const page = () => {
 
             <div className="flex gap-5 md:gap-20 flex-col md:flex-row">
                 <div className="h-full bg-[#050591] rounded-xl text-white p-5 mt-5 md:mt-20">
-                    <h2 className="text-lg md:text-4xl my-4 text-center">Let's Create Progress Together <br />
+                    <h2 className="text-lg md:text-4xl my-4 text-center">Let us Create Progress Together <br />
                         For Great Business</h2>
 
                     <div className="my-5">
@@ -43,7 +43,7 @@ const page = () => {
                 </div>
                 <div>
                     <p className="text-red-600  text-center md:text-start">Contact With Us</p>
-                    <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center md:text-start">Don't Google <br />
+                    <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center md:text-start">Do not Google <br />
                         Design Questions</h3>
                     <p className="md:my-2 lg:my-5">Your email address will not be published. Required fields are marked* </p>
 
@@ -58,8 +58,6 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-
-              
             </div>
         </div>
     );
