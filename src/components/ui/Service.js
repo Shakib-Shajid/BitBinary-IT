@@ -51,9 +51,7 @@ const Service = () => {
                                 do not look</p>
                         </div>
                     </div>
-
                 </div>
-
 
                 <div className='mt-2 md:mt-10 lg:mt-20'>
 

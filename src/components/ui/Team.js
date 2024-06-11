@@ -22,7 +22,7 @@ const Team = () => {
           </div>
           <Image
             src={groupImg} className='md:w-2/4 lg:pt-6'
-            alt="Whale Loogan" />
+            alt="Whale Lagoon" />
         </div>
       </div>
         </div>

@@ -8,29 +8,30 @@ import Link from "next/link";
 const page = () => {
     return (
         <div>
-            <div className="flex justify-center items-center my-10">
-                <div className="h-96 bg-[#050591] rounded-xl text-white text-center pt-8 md:pt-16 w-4/5">
-                    <p className="text-xl md:text-2xl text-[#E6D5D5]">Contact With Us</p>
-                    <h2 className="text-lg md:text-4xl my-4">Let's Create Progress Together <br />
+           
+
+            <div className="flex gap-5 md:gap-20 flex-col md:flex-row">
+                <div className="h-full bg-[#050591] rounded-xl text-white p-5 mt-5 md:mt-20">
+                    <h2 className="text-lg md:text-4xl my-4 text-center">Let's Create Progress Together <br />
                         For Great Business</h2>
 
-                    <div className="flex my-10 flex-col md:flex-row">
-                        <div className="flex gap-3 w-64 justify-center mx-auto">
+                    <div className="my-5">
+                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
                             <Image src={loc} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Meet Us in Office:</h4>
                                 <p className="text-sm text-[#D8BDBD]">Patricia C. 4401 Waldeck Street Grapevine Nashville, Tx</p>
                             </div>
                         </div>
-                        <div className="flex gap-3 w-64 justify-center mx-auto">
+                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
                             <Image src={sms} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Our Email Address:</h4>
-                                <p className="text-sm text-[#D8BDBD]">riaz.ahmed8141@gmail.com
+                                <p className="text-sm text-[#D8BDBD]">abc123@gmail.com
                                     kapalishopnospondon.com</p>
                             </div>
                         </div>
-                        <div className="flex gap-3 w-64 justify-center mx-auto">
+                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
                             <Image src={call} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Contact Numbers:</h4>
@@ -40,12 +41,9 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="flex gap-10 flex-col md:flex-row">
                 <div>
-                    <p className="text-red-600">Contact With Us</p>
-                    <h3 className="text-3xl lg:text-5xl font-bold py-3">Don't Google <br />
+                    <p className="text-red-600  text-center md:text-start">Contact With Us</p>
+                    <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center md:text-start">Don't Google <br />
                         Design Questions</h3>
                     <p className="md:my-2 lg:my-5">Your email address will not be published. Required fields are marked* </p>
 
@@ -61,9 +59,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className="mb-5">
-                    <Image src={map} className=" md:my-10 md:w-full lg:w-3/4 mx-auto" alt="" />
-                </div>
+              
             </div>
         </div>
     );
