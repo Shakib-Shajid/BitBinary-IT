@@ -11,7 +11,7 @@ const page = () => {
             </div>
 
             <div>
-                <Blogs/>
+                <Blogs />
             </div>
         </div>
     );
