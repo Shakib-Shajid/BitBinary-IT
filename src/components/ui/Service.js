@@ -106,7 +106,7 @@ const Service = () => {
                         <button className="btn bg-[#2C2CF2] text-white rounded-full py-4 px-10 w-full md:w-2/3">Read More</button>
                     </Link>
                 </div>
-
+ 
 
             </div>
         </div>
