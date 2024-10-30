@@ -9,20 +9,20 @@ const page = () => {
     return (
         <div>
            
-            <div className="flex gap-5 md:gap-20 flex-col md:flex-row">
+            <div className="flex gap-5 md:gap-20 flex-col lg:flex-row">
                 <div className="h-full bg-[#050591] rounded-xl text-white p-5 mt-5 md:mt-20">
                     <h2 className="text-lg md:text-4xl my-4 text-center">Let us Create Progress Together <br />
                         For Great Business</h2>
 
-                    <div className="my-5">
-                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
+                    <div className="my-5 flex flex-wrap lg:flex-col">
+                        <div className="flex gap-5 w-80 p-5 leading-loose items-center mx-auto lg:mx-0">
                             <Image src={loc} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Meet Us in Office:</h4>
                                 <p className="text-sm text-[#D8BDBD]">Patricia C. 4401 Waldeck Street Grapevine Nashville, Tx</p>
                             </div>
                         </div>
-                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
+                        <div className="flex gap-5 w-80 p-5 leading-loose items-center mx-auto lg:mx-0">
                             <Image src={sms} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Our Email Address:</h4>
@@ -30,7 +30,7 @@ const page = () => {
                                     kapalishopnospondon.com</p>
                             </div>
                         </div>
-                        <div className="flex gap-5 w-64 p-5 leading-loose items-center">
+                        <div className="flex gap-5 w-80 p-5 leading-loose items-center mx-auto lg:mx-0">
                             <Image src={call} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Contact Numbers:</h4>
@@ -46,7 +46,7 @@ const page = () => {
                         Design Questions</h3>
                     <p className="md:my-2 lg:my-5 w-[80%] mx-auto text-center">Your email address will not be published. Required fields are marked* </p>
 
-                    <div className="my-5 md:my-10 w-[80%] md:w-full mx-auto space-y-2 md:space-y-0">
+                    <div className="my-5 md:my-10 w-[80%] md:w-[80%] lg:w-full mx-auto space-y-2 md:space-y-0">
                         <div className="flex gap-2 md:gap-4 lg:gap-9 flex-col lg:flex-row space-y-2 md:space-y-0 mb-3">
                             <input type="text" placeholder="Your Name*" className="input input-bordered w-full py-3 px-6 rounded-full text-sm h-16" required name="" id="" />
                             <input type="email" placeholder="Your Email*" className="input input-bordered w-full py-3 px-6 rounded-full text-sm h-16" required name="" id="" />
