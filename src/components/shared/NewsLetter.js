@@ -2,15 +2,14 @@
 const NewsLetter = () => {
     return (
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-5">
 
-            <div className="h-80 md:h-96 bg-black rounded-xl text-white text-center pt-8 md:pt-16 md:z-10 md:relative md:-mb-40 w-5/6 lg:w-4/5">
+            <div className="h-[22.5rem] md:h-96 bg-black rounded-xl text-white text-center pt-8 md:pt-10 lg:pt-16 md:z-10 md:relative md:-mb-40 w-5/6 lg:w-4/5">
                 <p className="text-xl md:text-2xl text-[#E6D5D5]">Join Our Community</p>
                 <h2 className="text-2xl md:text-4xl lg:text-5xl my-4">Subscribe To Our Newsletter</h2>
                 <p className="mb-4 text-[#E6D5D5] w-[80%] mx-auto">But I must explain to you how all this mistaken idea of denouncing <br />
                     pleasure and praising pain was born</p>
                 <div>            
-
                     {/* for small device */}
                     <div className="md:hidden inline-block">
                         <input className="input bg-black py-3 px-5 border-white rounded-full text-[#E6D5D5] w-[80%]" placeholder="Enter Your Email Address" />
