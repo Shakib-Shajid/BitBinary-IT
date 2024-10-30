@@ -11,7 +11,7 @@ const Banner = () => {
                     src={firstImage} 
                     className='md:w-2/4 md:pt-12'
                     alt="Whale Loogan" />
-                <div className="w-[50%] ">
+                <div className="w-[80%] lg:w-[50%] ">
                     <h1 className="text-red-600">We Are Social Media Marketing Agency</h1>
                     <p className="text-3xl md:text-5xl font-bold py-6 hidden md:flex">Make More Time <br />
                         For The Work <br />
@@ -21,7 +21,7 @@ const Banner = () => {
                     <p className="py-6">When, while lovely valley teems with vapour around
                         meand meridian sun strikes the upper impenetrable</p>
                     <Link href="/contact">
-                        <button className="btn bg-[#2C2CF2] text-white rounded-full md:py-4 md:px-10">Get Started</button>
+                        <button className="btn bg-[#2C2CF2] text-white rounded-full md:py-4 md:px-10 w-full md:w-1/3 border-none">Get Started</button>
                             
                     </Link>
                 </div>
