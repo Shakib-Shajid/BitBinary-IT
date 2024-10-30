@@ -9,9 +9,9 @@ const page = () => {
     return (
         <div>
            
-            <div className="flex gap-5 md:gap-20 flex-col lg:flex-row">
-                <div className="h-full bg-[#050591] rounded-xl text-white p-5 mt-5 md:mt-20">
-                    <h2 className="text-lg md:text-4xl my-4 text-center">Let us Create Progress Together <br />
+            <div className="flex gap-5 md:gap-20 flex-col lg:flex-row items-center">
+                <div className="h-full bg-[#050591] rounded-xl text-white p-5 mt-5">
+                    <h2 className="text-2xl md:text-4xl my-4 text-center lg:p-5">Let us Create Progress Together <br />
                         For Great Business</h2>
 
                     <div className="my-5 flex flex-wrap lg:flex-col">
@@ -40,6 +40,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
+
                 <div>
                     <p className="text-red-600  text-center">Contact With Us</p>
                     <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center">Do not Google <br />
