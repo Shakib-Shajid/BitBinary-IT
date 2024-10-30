@@ -98,12 +98,12 @@ const Service = () => {
                 </div>
 
                 {/* card 5 */}
-                <div className="w-72 mx-auto md:mt-10 lg:mt-48">
+                <div className="w-[80%] md:w-72 mx-auto md:mt-10 lg:mt-48">
                     <h1 className="text-red-600">Our Service</h1>
-                    <p className="text-3xl lg:text-5xl font-bold py-6">Ultimate Experiences</p>
-                    <p className="py-6">In a professional context it often happens that private or corporate clients order a publication to be made and presented.</p>
+                    <p className="py-3 text-3xl lg:text-5xl font-bold md:py-6">Ultimate Experiences</p>
+                    <p className="py-3 md:py-6">In a professional context it often happens that private or corporate clients order a publication to be made and presented.</p>
                     <Link href="/about">
-                        <button className="btn bg-[#2C2CF2] text-white rounded-full py-4 px-10">Read More</button>
+                        <button className="btn bg-[#2C2CF2] text-white rounded-full py-4 px-10 w-full md:w-2/3">Read More</button>
                     </Link>
                 </div>
 
