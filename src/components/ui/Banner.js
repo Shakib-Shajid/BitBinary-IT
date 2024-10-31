@@ -1,14 +1,23 @@
+"use client"
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect } from 'react';
 import firstImage from '@/assets/first-image.png';
 import Link from 'next/link';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 const Banner = () => {
+    
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
-        <div className = "hero">
+        <div className="hero" data-aos="fade-down">
             <div className="hero-content flex-col md:gap-5 lg:gap-20 lg:flex-row-reverse">
                 <Image
-                    src={firstImage} 
+                    src={firstImage}
                     className='md:w-2/4 md:pt-12'
                     alt="Whale Loogan" />
                 <div className="w-[80%] lg:w-[50%] ">
@@ -22,11 +31,11 @@ const Banner = () => {
                         meand meridian sun strikes the upper impenetrable</p>
                     <Link href="/contact">
                         <button className="btn bg-[#2C2CF2] text-white rounded-full md:py-4 md:px-10 w-full md:w-1/3 border-none">Get Started</button>
-                            
+
                     </Link>
                 </div>
             </div>
-      </div>
+        </div>
     );
 };
 
