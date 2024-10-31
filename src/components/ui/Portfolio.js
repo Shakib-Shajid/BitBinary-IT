@@ -17,7 +17,7 @@ import cos from '@/assets/cos.png'
 const Portfolio = () => {
 
   return (
-    <div className='text-center'>
+    <div className='text-center' data-aos="fade-right">
       <p className="text-red-600">Portfolio</p>
       <p className='text-3xl md:text-4xl font-bold py-2 md:py-4 lg:py-7'>The Works We Are Proud Of</p>
       <Swiper
