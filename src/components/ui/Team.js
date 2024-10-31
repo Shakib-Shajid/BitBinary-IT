@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div>
       {/* Our Team Section */}
-      <div className="hero min-h-screen" data-aos="fade-up">
+      <div className="hero min-h-screen md:mt-16 lg:mt-0" data-aos="fade-up">
         <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
           <div className="w-[80%] lg:w-[50%] ">
             <h1 className="text-red-600">About Team</h1>

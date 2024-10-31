@@ -98,7 +98,7 @@ const Service = () => {
                 </div>
 
                 {/* card 5 */}
-                <div className="w-[80%] md:w-72 mx-auto md:mt-10 lg:mt-48" data-aos="zoom-in">
+                <div className="w-[80%] md:w-72 mx-auto md:mt-10 lg:mt-48 text-center" data-aos="zoom-in">
                     <h1 className="text-red-600">Our Service</h1>
                     <p className="py-3 text-3xl lg:text-5xl font-bold md:py-6">Ultimate Experiences</p>
                     <p className="py-3 md:py-6">In a professional context it often happens that private or corporate clients order a publication to be made and presented.</p>
