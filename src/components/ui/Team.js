@@ -3,9 +3,9 @@ import Link from "next/link";
 import groupImg from '@/assets/team-group-pic.png';
 
 const Team = () => {
-    return (
-        <div>
-            {/* Our Team Section */}
+  return (
+    <div>
+      {/* Our Team Section */}
       <div className="hero min-h-screen">
         <div className="hero-content flex-col gap-20 lg:flex-row-reverse">
           <div className="w-[80%] lg:w-[50%] ">
@@ -25,8 +25,8 @@ const Team = () => {
             alt="Whale Lagoon" />
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Team;
