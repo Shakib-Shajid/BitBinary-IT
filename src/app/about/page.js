@@ -10,9 +10,10 @@ import Imgs from '@/components/ui/Imgs';
 const page = () => {
 
     return (
-        <div>
+        <div >
+            {/*  data-aos="fade-up" data-aos-duration="1500" */}
             <div className="hero mt-3 lg:mt-10">
-                <div className="hero-content flex-col  lg:flex-row-reverse">
+                <div className="hero-content flex-col lg:flex-row-reverse" >
                     <div>
                         <Image
                             src={team1}
@@ -24,7 +25,7 @@ const page = () => {
                             alt="Whale Loogan" />
                     </div>
                     <div>
-                        <div className="w-[75%] ">
+                        <div className="w-[80%] lg:w-[75%] mx-auto lg:mx-0">
                             <h1 className="text-red-600">Why Choose Us</h1>
                             <p className="text-3xl md:text-5xl font-bold py-6 hidden md:flex">An Exceptionally <br />
                                 Unique Experience <br />
@@ -37,7 +38,7 @@ const page = () => {
                         {/* <div className='flex flex-col md:flex-row'> */}
                         <div className='grid grid-cols-1 md:grid-cols-2'>
                             {/* card 1 */}
-                            <div className="card w-64">
+                            <div className="card w-64 mx-auto">
                                 <figure className="">
                                     <Image
                                         src={md}
@@ -58,7 +59,7 @@ const page = () => {
 
 
                             {/* card 2 */}
-                            <div className="card w-64 ">
+                            <div className="card w-64 mx-auto ">
                                 <figure className="">
                                     <Image
                                         src={bm}
@@ -81,7 +82,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='text-center mb-5 md:mb-10 lg:mb-20 '>
+            <div className='text-center mb-5 md:mb-10 lg:mb-20 ' data-aos="flip-left">
                 <h3 className='text-red-600'>Our Team</h3>
                 <p className=" text-2xl md:text-5xl font-bold pt-3 pb-10">Meet The Minds Shaping <br />
                     An Industry</p>
