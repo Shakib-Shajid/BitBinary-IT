@@ -11,9 +11,9 @@ const page = () => {
 
     return (
         <div >
-            {/*  data-aos="fade-up" data-aos-duration="1500" */}
+      
             <div className="hero mt-3 lg:mt-10">
-                <div className="hero-content flex-col lg:flex-row-reverse" >
+                <div className="hero-content flex-col lg:flex-row-reverse"  data-aos="fade-up" data-aos-duration="1500" >
                     <div>
                         <Image
                             src={team1}

@@ -13,10 +13,11 @@ const Project = () => {
             .then(data => setPics(data))
     }, [])
     return (
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10'>
+        // grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+            <div className=' gap-10 my-10 flex flex-col md:flex-row w-[80%] md:w-[90%] mx-auto'>
                 {
                     pics.map(pic => (
-                        <div  key={pic.id}>
+                        <div  key={pic.id} className=''>
                             <Image src={pic.img} width={500} height={500} alt="" />
                             <div className="w-[75%] text-center block mx-auto">
                                 <p className="font-bold">{pic.title}</p>
