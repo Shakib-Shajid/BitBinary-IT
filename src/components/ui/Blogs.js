@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -24,12 +25,20 @@ const Blogs = () => {
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">{blog.title}</h2>
-                                <p>{blog.desc} </p>
-                                <div className="card-actions justify-end">
-                                    <Link href={`/blog/${blog.id}`}>
-                                        <button className="btn btn-primary">Read More</button>
-                                    </Link>
-                                </div>
+                                {/* <p>{blog.desc}</p> */}
+                                <p>
+                                    {blog.desc.length > 100
+                                        ? (
+                                            <>
+                                                {blog.desc.slice(0, 100)}
+                                                <Link href={`/blog/${blog.id}`}>
+                                                .......<span className="text-blue-500 font-bold"> Read More</span>
+                                                </Link>
+                                            </>
+                                        )
+                                        : blog.desc}
+                                </p>
+                               
                             </div>
                         </div>
                     ))}
