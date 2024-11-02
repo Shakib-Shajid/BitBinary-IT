@@ -14,7 +14,7 @@ const Blogs = () => {
     }, [])
     return (
         <div>
-            <div className='grid grid-cols-z1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-10'>
+            <div className='grid grid-cols-z1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 md:my-10 w-full md:w-[90%] mx-auto lg:w-full'>
                 {
                     blogs.map(blog => (
 
@@ -25,7 +25,7 @@ const Blogs = () => {
                             <div className="card-body">
                                 <h2 className="card-title">{blog.title}</h2>
                                 <p>{blog.desc} </p>
-                                <div className="card-actions justify-end ">
+                                <div className="card-actions justify-end">
                                     <Link href={`/blog/${blog.id}`}>
                                         <button className="btn btn-primary">Read More</button>
                                     </Link>
