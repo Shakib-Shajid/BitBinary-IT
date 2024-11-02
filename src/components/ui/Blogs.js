@@ -18,7 +18,7 @@ const Blogs = () => {
                 {
                     blogs.map(blog => (
 
-                        <div className="card w-72 mx-auto md:w-80 lg:w-96 bg-base-100 shadow-xl" key={blog.id}>
+                        <div className="card w-80 mx-auto md:w-80 lg:w-96 bg-base-100 shadow-xl" key={blog.id}>
                             <figure>
                                 <Image src={blog.img} key={blog.id} width="384" height="100" alt="" />
                             </figure>
