@@ -2,26 +2,28 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { useParams } from 'next/navigation';
 
-const BlogDetail = ({ id }) => {
+const BlogDetail = () => {
   const [blog, setBlog] = useState(null);
 
+  const params = useParams();
   useEffect(() => {
-    const urlId = Number(window.location.pathname.split('/')[2]); // Extract ID from URL
-
+    // const urlId = Number(window.location.pathname.split('/')[2]); // Extract ID from URL
     // show specific blog
-    fetch('../blog.json')
+    fetch('/blog.json')
       .then(res => res.json())
       .then(data => {
-        const foundBlog = data.find(item => item.id === urlId);
+        // const foundBlog = data.find(item => item.id === urlId);
+        const foundBlog = data.find(item => item.id === Number(params.id));
         setBlog(foundBlog);
       });
-  }, []); // Run once on initial render
+  }, [params]); // Run once on initial render
 
   // .......................................................................................................
   const [newBlog, setNewBlog] = useState([])
   useEffect(() => {
-    fetch('../blog.json')
+    fetch('/blog.json')
       .then(res => res.json())
       .then(data => setNewBlog(data));
   }, [])
