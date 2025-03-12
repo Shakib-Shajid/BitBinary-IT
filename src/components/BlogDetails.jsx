@@ -23,7 +23,7 @@ const BlogDetail = ({ id }) => {
   }
 
   return (
-    <div className="flex flex-col md:flex-row gap-10 w-full">
+    <div className="flex flex-col md:flex-row gap-10 w-full pt-24 pb-16">
       <div className="lg:w-9/12">
         <Image src={blog.img} width="900" height="100" alt="" className="rounded-2xl " />
         <div className="bg-slate-100 p-10 rounded-2xl mt-5">

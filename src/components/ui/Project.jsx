@@ -8,7 +8,7 @@ const Project = () => {
     const [pics, setPics] = useState([]);
 
     useEffect(() => {
-        fetch('./project.json')
+        fetch('/project.json')
             .then(res => res.json())
             .then(data => setPics(data))
     }, [])

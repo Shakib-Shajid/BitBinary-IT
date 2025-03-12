@@ -8,7 +8,7 @@ const Imgs = () => {
     const [members, setMembers] = useState([]);
 
     useEffect(() => {
-        fetch('./team.json')
+        fetch('/team.json')
             .then(res => res.json())
             .then(data => setMembers(data))
     }, [])
