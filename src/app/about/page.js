@@ -18,11 +18,11 @@ const page = () => {
                         <Image
                             src={team1}
                             className='md:pt-12'
-                            alt="Whale Loogan" />
+                            alt="BitBinary IT" />
                         <Image
                             src={team2}
                             className='md:pt-12'
-                            alt="Whale Loogan" />
+                            alt="BitBinary IT" />
                     </div>
                     <div>
                         <div className="w-[80%] lg:w-[75%] mx-auto lg:mx-0">

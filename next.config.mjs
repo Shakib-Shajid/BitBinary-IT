@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export", 
+    output: 'export',
     images: {
-        domains: ["i.ibb.co"],
-    }
+        unoptimized: true, // Disable Next.js image optimization
+      },
 };
 
 export default nextConfig;
+
+
+// images: {
+//     domains: ["i.ibb.co"],
+// }

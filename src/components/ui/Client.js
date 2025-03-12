@@ -21,7 +21,7 @@ const Client = () => {
                     </div>
                         <Image
                             src={CR} className='w-[80%] md:w-3/5 lg:w-2/5 lg:pt-6 mx-auto'
-                            alt="Whale Loogan" />
+                            alt="BitBinary IT" />
                 </div>
             </div>
         </div>

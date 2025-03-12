@@ -14,14 +14,15 @@ const Banner = () => {
     }, [])
 
     return (
-        <div className="hero" data-aos="fade-down">
+        <div className="hero" data-aos="fade-up">
             <div className="hero-content flex-col md:gap-5 lg:gap-20 lg:flex-row-reverse">
                 <Image
                     src={firstImage}
-                    className='md:w-2/4 md:pt-12'
-                    alt="Whale Loogan" />
+                    // src="../../assets/first-image.png"
+                    className='md:w-2/4'
+                    alt="BitBinary IT" />
                 <div className="w-[80%] lg:w-[50%] ">
-                    <h1 className="text-red-600">We Are Social Media Marketing Agency</h1>
+                    <h1 className="text-red-600 font-semibold">We are IT agency with Social Media</h1>
                     <p className="text-3xl md:text-5xl font-bold py-6 hidden md:flex">Make More Time <br />
                         For The Work <br />
                         That Matters <br />

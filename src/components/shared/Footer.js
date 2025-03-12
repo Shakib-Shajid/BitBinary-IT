@@ -9,9 +9,12 @@ const Footer = () => {
         <aside>
           <Image 
             src={logo}
-            alt="whale-loogan"
+            // src="../../assets/logo.png"
+            width={200}
+            height={200}
+            alt="BitBinary IT"
           />
-          <p>Whale Loogan<br/>Providing reliable tech since 2023</p>
+          <p>BitBinary IT<br/>Providing reliable tech since 2023</p>
         </aside> 
         <nav>
           <h6 className="footer-title">Services</h6> 

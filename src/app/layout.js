@@ -6,8 +6,8 @@ import Head from 'next/head';
 
 
 export const metadata = {
-  title: "Whale Lagoon",
-  description: "It is a Social Media Marketing Agency",
+  title: "BitBinary IT",
+  description: "We are IT agency with Social Media",
   icons:{
     icon: ['/favicon.ico?v=4'],
     apple: ['/apple-touch-icon.png?v=4'],
