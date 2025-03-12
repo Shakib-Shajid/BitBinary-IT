@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', // Enables static export mode
+  trailingSlash: true, // Ensures all routes have a trailing slash for static files
   images: {
-    unoptimized: true, // Disable Next.js image optimization
+    unoptimized: true, // Ensures Next.js does not optimize images
   },
-  trailingSlash: true,
 };
 
 export default nextConfig;
+
+
+
+
+
+
 
 
 // images: {
