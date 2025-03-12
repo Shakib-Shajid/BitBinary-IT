@@ -15,11 +15,11 @@ const Banner = () => {
 
     return (
         <div className="hero" data-aos="fade-up">
-            <div className="hero-content flex-col md:gap-5 lg:gap-20 lg:flex-row-reverse">
+            <div className="hero-content flex-col md:gap-5 lg:gap-20 lg:flex-row-reverse mt-14 md:mt-6">
                 <Image
                     src={firstImage}
                     // src="../../assets/first-image.png"
-                    className='md:w-2/4'
+                    className='md:w-3/4 lg:mt-2/4 md:pt-12'
                     alt="BitBinary IT" />
                 <div className="w-[80%] lg:w-[50%] ">
                     <h1 className="text-red-600 font-semibold">We are IT agency with Social Media</h1>
