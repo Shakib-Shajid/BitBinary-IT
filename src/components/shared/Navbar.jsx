@@ -20,6 +20,14 @@ const Navbar = () => {
   // Function to close dropdown on click
   const closeDropdown = () => setIsDropdownOpen(false);
 
+  // Function to check if a link is active
+  const isActive = (linkPath) => {
+    if (linkPath === "/") {
+      return pathName === "/";
+    }
+    return pathName?.startsWith(linkPath);
+  };
+
   return (
     <div className="z-50 fixed top-0 left-0 w-full bg-[#B8DCFF]">
       <div className="navbar max-w-7xl mx-auto">
@@ -45,14 +53,12 @@ const Navbar = () => {
               </svg>
             </button>
             {isDropdownOpen && (
-              <ul
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
-              >
+              <ul className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow">
                 {navLinks.map((navLink) => (
                   <li key={navLink.path}>
                     <Link
                       href={navLink.path}
-                      className={pathName === navLink.path ? "text-blue-600 font-bold" : ""}
+                      className={isActive(navLink.path) ? "text-blue-600 font-bold" : ""}
                       onClick={closeDropdown} // Close dropdown on click
                     >
                       {navLink.title}
@@ -72,7 +78,7 @@ const Navbar = () => {
               <li key={navLink.path}>
                 <Link
                   href={navLink.path}
-                  className={pathName === navLink.path ? "text-blue-600 font-bold" : ""}
+                  className={isActive(navLink.path) ? "text-blue-600 font-bold" : ""}
                 >
                   {navLink.title}
                 </Link>
