@@ -8,8 +8,8 @@ const page = () => {
                 <h3 className="text-3xl lg:text-5xl font-bold py-3">Our Latest Works</h3>
             </div>
             <Project />
-            <Project />
-            <Project />
+            {/* <Project />
+            <Project /> */}
         </div>
     );
 };

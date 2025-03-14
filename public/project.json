@@ -1,21 +1,24 @@
 [
   {
     "id": 1,
-    "title": "Loreal Beauty and Shampoo",
-    "topic": "Facebook Marketing . Website SEO",
-    "img": "https://i.ibb.co/vz7G7Vb/bag.png"
+    "title": "Assorted BD",
+    "topic": "E-Commerce Website with Meta Marketing",
+    "img": "/images/assorted_bd.jpg",
+    "link" : "http://assortedbd.com/"
   },
   {
     "id": 2,
-    "title": "Luxury Meck Up LTD",
-    "topic": "Facebook Marketing . Website SEO",
-    "img": "https://i.ibb.co/RzxXHC2/cos.png"
+    "title": "Progressive Prokashony",
+    "topic": "Publication with Online Book Seller",
+    "img": "/images/progressive_prokashony.png",
+    "link": "https://progressiveprokashony.com/"
   },
   {
     "id": 3,
-    "title": "Health Tracker",
-    "topic": "Facebook Marketing . Website SEO",
-    "img": "https://i.ibb.co/NVZG16D/fac.png"
+    "title": "Synapse IT",
+    "topic": "IT Company with Software and Web",
+    "img": "/images/synapse_it.png",
+    "link": "https://wersynapseit.com/"
   }
 ]
 
