@@ -19,23 +19,23 @@ const page = () => {
                             <Image src={loc} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Meet Us in Office:</h4>
-                                <p className="text-sm text-[#D8BDBD]">Patricia C. 4401 Waldeck Street Grapevine Nashville, Tx</p>
+                                <p className="text-sm text-[#D8BDBD]">UTC Building, Panthapath, Dhaka</p>
                             </div>
                         </div>
                         <div className="flex gap-5 w-80 p-5 leading-loose items-center mx-auto lg:mx-0">
                             <Image src={sms} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Our Email Address:</h4>
-                                <p className="text-sm text-[#D8BDBD]">abc123@gmail.com
-                                    kapalishopnospondon.com</p>
+                                <p className="text-sm text-[#D8BDBD]">service@bitbinaryit.com
+                                contact@bitbinaryit.com</p>
                             </div>
                         </div>
                         <div className="flex gap-5 w-80 p-5 leading-loose items-center mx-auto lg:mx-0">
                             <Image src={call} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Contact Numbers:</h4>
-                                <p className="text-sm text-[#D8BDBD]">+8801723456789
-                                    +8801723456789</p>
+                                <p className="text-sm text-[#D8BDBD]">+8801764736330
+                                    +8801764736330 (WhatsApp)</p>
                             </div>
                         </div>
                     </div>
