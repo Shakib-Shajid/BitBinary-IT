@@ -43,9 +43,7 @@ const page = () => {
 
                 <div className="lg:pt-10">
                     <p className="text-red-600 text-center">Contact With Us</p>
-                    <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center">Do not Google <br />
-                        Design Questions</h3>
-                    <p className="md:my-2 lg:my-3 w-[80%] mx-auto text-center">Your email address will not be published. Required fields are marked* </p>
+                    <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center">Have any questions??</h3>
 
                     <div className="my-5 md:my-5 w-[80%] md:w-[80%] lg:w-full mx-auto space-y-2 md:space-y-0">
                         <div className="flex gap-2 md:gap-4 lg:gap-9 flex-col lg:flex-row space-y-2 md:space-y-0 mb-3">
@@ -53,9 +51,11 @@ const page = () => {
                             <input type="email" placeholder="Your Email*" className="input input-bordered w-full py-3 px-6 rounded-full text-sm h-12" required name="" id="" />
                         </div>
                         <textarea placeholder="Questions" className="textarea md:h-56 lg:h-40 w-full rounded-xl py-3 px-6 text-sm" ></textarea>
+                    <small className="md:my-2 lg:my-3 w-[90%] mx-auto text-red-600">Your email address will not be published. Required fields are marked* </small>
                         <div className="flex justify-end">
                             <Link href="/contact" className="btn bg-[#2C2CF2] text-white mt-3 md:py-4 md:px-10 rounded-full border-0 w-full">Send Message</Link>
                         </div>
+
                     </div>
                 </div>
             </div>

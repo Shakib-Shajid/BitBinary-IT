@@ -24,10 +24,7 @@ const Service = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Team Accounts</h2>
-                            <p>There are many variations
-                                passages of lorem ipsum
-                                majority some by words which
-                                do not look</p>
+                            <p>Collaborate better with secure and flexible team accounts. Whether you&apos;re a small startup or a growing tech firm, your team can work together efficiently with shared access and personalized roles.</p>
                         </div>
                     </div>
 
@@ -45,10 +42,7 @@ const Service = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Customer Support</h2>
-                            <p>There are many variations
-                                passages of lorem ipsum
-                                majority some by words which
-                                do not look</p>
+                            <p>Need help? Our support team is here for you—real people who actually listen. We don&apos;t do scripts; we solve problems, fast. Because your time matters.</p>
                         </div>
                     </div>
                 </div>
@@ -68,10 +62,7 @@ const Service = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">Digital Agency</h2>
-                            <p>There are many variations
-                                passages of lorem ipsum
-                                majority some by words which
-                                do not look</p>
+                            <p>We don&apos;t just build websites—we create digital experiences. From branding to backend, we partner with you to bring your ideas to life, beautifully and seamlessly.</p>
                         </div>
                     </div>
 
@@ -88,10 +79,7 @@ const Service = () => {
                         </figure>
                         <div className="card-body items-center text-center">
                             <h2 className="card-title">API Reference</h2>
-                            <p>There are many variations
-                                passages of lorem ipsum
-                                majority some by words which
-                                do not look</p>
+                            <p>Our APIs are built for developers, by developers. Easy to read, well-documented, and reliable—so you can build faster without hitting roadblocks.</p>
 
                         </div>
                     </div>

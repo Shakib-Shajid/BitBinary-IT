@@ -11,7 +11,7 @@ const page = () => {
       <Service/>
       <Team/>
       <Portfolio/>
-      <Review/>
+      {/* <Review/> */}
     </div>
 
   );

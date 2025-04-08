@@ -10,11 +10,17 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
-import bag from '@/assets/bag.png'
-import fac from '@/assets/fac.png'
-import cos from '@/assets/cos.png'
+import { useEffect, useState } from 'react';
 
 const Portfolio = () => {
+
+  const [pics, setPics] = useState([]);
+
+  useEffect(() => {
+    fetch('/project.json')
+      .then(res => res.json())
+      .then(data => setPics(data))
+  }, [])
 
   return (
     <div className='text-center' data-aos="fade-right">
@@ -29,51 +35,16 @@ const Portfolio = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div>
-            <Image src={bag} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={fac} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={cos} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={bag} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={fac} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={cos} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={bag} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={fac} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Image src={cos} alt="" />
-          </div>
-        </SwiperSlide>
+        {
+          pics.map(pic => (
+            <SwiperSlide key={pic.id}>
+              <div>
+                <Image src={pic.img} alt="" width="4000" height="1000" className='rounded-3xl'/>
+              </div>
+            </SwiperSlide>
+          ))}
+
+
       </Swiper>
     </div>
   );
