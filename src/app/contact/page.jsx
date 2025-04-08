@@ -34,8 +34,8 @@ const page = () => {
                             <Image src={call} className="w-1/5 h-[75%]" alt="" />
                             <div className="text-left ">
                                 <h4 className=" text-bold">Contact Numbers:</h4>
-                                <p className="text-sm text-[#D8BDBD]">+8801764736330
-                                    +8801764736330 (WhatsApp)</p>
+                                <p className="text-sm text-[#D8BDBD]">+8801xxxxxxxx
+                                    +8801xxxxxxxx (WhatsApp)</p>
                             </div>
                         </div>
                     </div>
