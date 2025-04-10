@@ -16,11 +16,11 @@ const page = () => {
                     <div>
                         <Image
                             src={team1}
-                            className='md:pt-12'
+                            className='mt-5 md:mt-0 md:pt-12' width="2000" height="1000"
                             alt="BitBinary IT" />
                         <Image
                             src={team2}
-                            className='md:pt-12'
+                            className='mt-5 md:mt-0 md:pt-12' width="2000" height="1000"
                             alt="BitBinary IT" />
                     </div>
                     <div>
