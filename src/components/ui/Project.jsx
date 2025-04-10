@@ -20,7 +20,7 @@ const Project = () => {
                 pics.map(pic => (
                     <div key={pic.id} className=''>
                         <Link href={pic.link} target="_blank">
-                            <Image src={pic.img} width={500} height={500} alt="" />
+                            <Image src={pic.img} width={500} height={500} alt="" className='rounded-3xl'/>
                             <div className="w-[75%] text-center block mx-auto">
                                 <p className="font-bold">{pic.title}</p>
                                 <p className="text-[#84868A] text-sm">{pic.topic}</p>
@@ -32,7 +32,7 @@ const Project = () => {
 
         </div>
 
-
+ 
 
 
     );
