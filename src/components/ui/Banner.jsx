@@ -27,7 +27,7 @@ const Banner = () => {
                         Make your <span className='text-amber-600'>effortlessly</span> website</p>
                     <p className="text-2xl font-bold md:hidden">Less cost, Less time — Make your effortlessly website.</p>
                     <p className="py-6">Appeal and engage your customers with a stunning, high-converting website designed to grow your business.</p>
-                    <Link href="/contact">
+                    <Link href="https://calendly.com/meeting-bitbinaryit/30min" target="_blank">
                         <button className="btn bg-[#2C2CF2] text-white rounded-full md:py-4 md:px-10 w-full md:w-1/3 border-none">Get Started</button>
 
                     </Link>
