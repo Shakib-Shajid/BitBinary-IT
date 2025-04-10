@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 import NewsLetter from "@/components/shared/NewsLetter";
+import AnimatedCursor from "react-animated-cursor";
 
 
 export const metadata = {
@@ -40,6 +41,19 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <body className="bg-[#B8DCFF]">
         <div className="max-w-7xl mx-auto">
+        <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={1.7}
+        outerAlpha={0}
+        outerStyle={{
+          border: '3px solid var(--cursor-color)'
+        }}
+        innerStyle={{
+          backgroundColor: 'var(--cursor-color)'
+        }}
+      />
           <Navbar />
           {children}
           <NewsLetter />

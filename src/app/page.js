@@ -7,10 +7,10 @@ import Team from '@/components/ui/Team';
 const page = () => {
   return (
     <div>
-      <Banner/>
-      <Service/>
-      <Team/>
-      <Portfolio/>
+      <Banner />
+      <Service />
+      <Team />
+      <Portfolio />
       {/* <Review/> */}
     </div>
 

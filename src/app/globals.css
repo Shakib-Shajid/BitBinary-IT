@@ -4,18 +4,26 @@
 
 
 body {
-    color: var(--foreground);
-    background: var(--background);
-  }
-  
-  
-  body {
-    background-color: white;
-    color: black;
-  }
-  
-  [data-theme="dark"] {
-    background-color: black;
-    color: white;
-  }
-  
+  color: var(--foreground);
+  background: var(--background);
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+
+html {
+  --cursor-color: blue
+}
+
+html.dark-mode {
+  --cursor-color: #fff
+}
