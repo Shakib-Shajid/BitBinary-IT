@@ -55,8 +55,8 @@ const Portfolio = () => {
         {
           pics.map(pic => (
             <SwiperSlide key={pic.id} className='h-36'>
-              <div>
-                <Image src={pic.img} alt="" width="4000" height="1000" className='rounded-3xl'/>
+              <div className='w-[90%] lg:w-full mx-auto'>
+                <Image src={pic.img} alt="" width="4000" height="1000" className='rounded-3xl '/>
               </div>
             </SwiperSlide>
           ))}
