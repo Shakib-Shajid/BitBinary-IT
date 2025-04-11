@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Image from 'next/image';
 import React from 'react';
 import team1 from '@/assets/team-1.png';
@@ -6,7 +6,14 @@ import team2 from '@/assets/team-2.png';
 import md from '@/assets/md.png'
 import bm from '@/assets/bm.png'
 
+export const metadata = {
+    title: 'About - BitBinary IT',
+    description: 'Learn more about us.',
+};
+
 const page = () => {
+
+ 
 
     return (
         <div >

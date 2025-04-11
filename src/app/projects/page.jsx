@@ -1,5 +1,10 @@
 import Project from "@/components/ui/Project";
 
+export const metadata = {
+    title: 'Projects - BitBinary IT',
+    description: 'Check our projects for trust and better idea',
+};
+
 const page = () => {
     return (
         <div  data-aos="zoom-in">

@@ -2,9 +2,11 @@ import Image from "next/image";
 import loc from '@/assets/loc.png'
 import sms from '@/assets/sms.png'
 import call from '@/assets/call.png'
-import map from '@/assets/map.png'
-import Link from "next/link";
 
+export const metadata = {
+    title: 'Contact - BitBinary IT',
+    description: 'Contact with our team.',
+};
 const page = () => {
     return (
         <div>
