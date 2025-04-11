@@ -89,7 +89,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             href="https://calendly.com/meeting-bitbinaryit/30min" target="_blank"
-            className="btn bg-[#2C2CF2] text-white md:py-4 md:px-10 rounded-full border-0"
+            className="btn bg-[#2C2CF2] hover:bg-[#2b368e] text-white md:py-4 md:px-10 rounded-full border-0"
           >
             Get Started
           </Link>

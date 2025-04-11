@@ -18,7 +18,7 @@ const Project = () => {
         <div className=' gap-10 my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] md:w-[90%] mx-auto'>
             {
                 pics.map(pic => (
-                    <div key={pic.id} className=''>
+                    <div key={pic.id}>
                         <Link href={pic.link} target="_blank">
                             <Image src={pic.img} width={500} height={500} alt="" className='rounded-3xl'/>
                             <div className="w-[75%] text-center block mx-auto">

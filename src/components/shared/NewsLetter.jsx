@@ -4,7 +4,7 @@ const NewsLetter = () => {
 
         <div className="flex justify-center mt-16 mb-5" data-aos="zoom-in">
 
-            <div className="h-[22.5rem] md:h-96 bg-black rounded-xl text-white text-center pt-8 md:pt-10 lg:pt-16 md:z-10 md:relative md:-mb-40 w-5/6 lg:w-4/5">
+            <div className="h-[29rem] md:h-96 bg-black rounded-xl text-white text-center pt-8 md:pt-10 lg:pt-16 md:z-10 md:relative md:-mb-40 w-5/6 lg:w-4/5">
                 <p className="text-xl md:text-2xl text-[#E6D5D5]">Join Our Community</p>
                 <h2 className="text-2xl md:text-4xl lg:text-5xl my-4">Subscribe To Our Newsletter</h2>
                 <p className="mb-4 text-[#E6D5D5] w-[80%] mx-auto">Subscribe to our newsletter for the latest updates, tips, and tech insights  <br />-  delivered straight to your inbox. No spam, just the good stuff.</p>
@@ -12,7 +12,7 @@ const NewsLetter = () => {
                     {/* for small device */}
                     <div className="md:hidden inline-block">
                         <input className="input bg-black py-3 px-5 border-white rounded-full text-[#E6D5D5] w-[80%]" placeholder="Enter Your Email Address" />
-                        <button className="btn py-2 px-9 rounded-full text-white border-0 m-2 bg-[#2C2CF2] w-[80%]">Subscribe</button>
+                        <button className="btn py-2 px-9 rounded-full text-white border-0 m-2 bg-[#2C2CF2] w-[80%] mt-5">Subscribe</button>
                     </div>
 
                     {/* for medium device */}

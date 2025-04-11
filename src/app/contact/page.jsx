@@ -42,7 +42,7 @@ const page = () => {
                 </div>
 
                 <div className="lg:pt-10">
-                    <p className="text-red-600 text-center">Get Started</p>
+                    <p className="text-red-600 text-center">Contact with us</p>
                     <h3 className="text-3xl lg:text-5xl font-bold py-3 text-center">Have any questions??</h3>
 
                     <div className="my-5 md:my-5 w-[80%] md:w-[80%] lg:w-full mx-auto space-y-2 md:space-y-0">
